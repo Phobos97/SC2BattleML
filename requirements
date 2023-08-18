@@ -1,0 +1,7 @@
+s2clientprotocol==5.0.11.89720.0
+burnysc2==6.3.0
+torch==2.0.1+cu117
+numpy
+bitstring
+
+
