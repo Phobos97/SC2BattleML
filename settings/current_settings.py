@@ -53,7 +53,7 @@ model_settings = ModelSettings(
 
     dropout=0,
 
-    load_model="F:/PycharmProjects/SC2RL/SC2BattleML/runs/07-21_13-54_ML_BOT_attacker_MiniGameScenario_DefeatRoaches_final1/model_checkpoints/log_counter230"
+    load_model=None
     )
 
 microbot_settings = MicroBotSettings(
@@ -66,9 +66,9 @@ microbot_settings = MicroBotSettings(
 hardware_settings = HardwareSettings(
     max_game_time_limit=2*60*60,
     wait_between_game_launches=15,
-    nr_simultaneous_games=1,
+    nr_simultaneous_games=4,
     max_nr_games=200000,
-    realtime=True
+    realtime=False
 )
 
 # scenario_settings = ScenarioSettings(
