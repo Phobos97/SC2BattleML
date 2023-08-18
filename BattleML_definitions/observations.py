@@ -3,7 +3,7 @@ from math import sqrt
 from s2clientprotocol.raw_pb2 import DisplayType, Unit
 from sc2.ids.unit_typeid import UnitTypeId
 
-from SC2BattleML.BattleML_definitions.unit_enum import UnitsML, UNIT_TYPE_COUNT, UNITS_ML_DICT, FLAG_BUILDING, \
+from BattleML_definitions.unit_enum import UnitsML, UNIT_TYPE_COUNT, UNITS_ML_DICT, FLAG_BUILDING, \
     PRESERVATION_BUILDING_IDS
 from s2clientprotocol import common_pb2
 import numpy as np

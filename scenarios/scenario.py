@@ -3,7 +3,7 @@ from abc import abstractmethod
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from SC2BattleML.bots.micro_bot import MicroBot
+    from bots.micro_bot import MicroBot
 
 class Scenario:
     def __init__(self, scenario_settings):

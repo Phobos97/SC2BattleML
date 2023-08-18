@@ -1,8 +1,8 @@
 from sc2.ids.unit_typeid import UnitTypeId
 
-from SC2BattleML.BattleML_definitions.actions_enum import ActionsML
-from SC2BattleML.scenarios.minigame_scenario import MiniGameScenario
-from SC2BattleML.settings import LearningSettings, ModelSettings, ScenarioSettings, HardwareSettings, MicroBotSettings
+from BattleML_definitions.actions_enum import ActionsML
+from scenarios.minigame_scenario import MiniGameScenario
+from settings import LearningSettings, ModelSettings, ScenarioSettings, HardwareSettings, MicroBotSettings
 
 
 # resolution of spatial features we receive from sc2 client

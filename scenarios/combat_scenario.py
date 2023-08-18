@@ -2,10 +2,10 @@ import random
 
 from sc2.ids.unit_typeid import UnitTypeId
 
-from SC2BattleML.BattleML_definitions.unit_enum import FLAG_BUILDING
-from SC2BattleML.bots.micro_bot import MicroBot
-from SC2BattleML.scenarios.combat_reward import capture_flag_combat_reward, pure_combat_reward
-from SC2BattleML.scenarios.scenario import Scenario
+from BattleML_definitions.unit_enum import FLAG_BUILDING
+from bots.micro_bot import MicroBot
+from scenarios.combat_reward import capture_flag_combat_reward, pure_combat_reward
+from scenarios.scenario import Scenario
 
 
 class CaptureFlagCombatScenario(Scenario):

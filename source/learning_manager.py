@@ -14,12 +14,12 @@ import re
 from torch.optim.lr_scheduler import ExponentialLR
 from torch.utils.tensorboard import SummaryWriter
 
-from SC2BattleML.BattleML_definitions.actions_enum import ActionsML
-from SC2BattleML.BattleML_definitions.observations import SPACIAL_FEATURES
-from SC2BattleML.bots.micro_bot import MicroBot
-from SC2BattleML.source.episode_data import Episode
-from SC2BattleML.settings import LearningSettings, ScenarioSettings, HardwareSettings
-from SC2BattleML.settings.current_settings import SPATIAL_RESOLUTION_X, SPATIAL_RESOLUTION_Y
+from BattleML_definitions.actions_enum import ActionsML
+from BattleML_definitions.observations import SPACIAL_FEATURES
+from bots.micro_bot import MicroBot
+from source.episode_data import Episode
+from settings import LearningSettings, ScenarioSettings, HardwareSettings
+from settings.current_settings import SPATIAL_RESOLUTION_X, SPATIAL_RESOLUTION_Y
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 colorama_init()

@@ -1,7 +1,7 @@
-from SC2BattleML.BattleML_definitions.actions_enum import ActionsML
-from SC2BattleML.bots.micro_bot import MicroBot
+from BattleML_definitions.actions_enum import ActionsML
+from bots.micro_bot import MicroBot
 import numpy as np
-from SC2BattleML.settings import MicroBotSettings
+from settings import MicroBotSettings
 
 
 class HoldPositionBot(MicroBot):

@@ -4,10 +4,10 @@ import numpy as np
 from sc2.unit import Unit
 from torch import Tensor
 
-from SC2BattleML.BattleML_definitions.observations import UNIT_ENCODING_KEY
-from SC2BattleML.BattleML_definitions.unit_enum import UNIT_TYPE_COUNT, UNITS_ML_DICT, FLAG_BUILDING
-from SC2BattleML.bots.micro_bot import MicroBot
-from SC2BattleML.scenarios.scenario import Scenario
+from BattleML_definitions.observations import UNIT_ENCODING_KEY
+from BattleML_definitions.unit_enum import UNIT_TYPE_COUNT, UNITS_ML_DICT, FLAG_BUILDING
+from bots.micro_bot import MicroBot
+from scenarios.scenario import Scenario
 
 
 def filter_units(unit_list: np.array):

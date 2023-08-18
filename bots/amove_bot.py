@@ -1,11 +1,11 @@
 from sc2.position import Point2
 
-from SC2BattleML.BattleML_definitions.actions_enum import ActionsML
-from SC2BattleML.BattleML_definitions.observations import UNIT_ENCODING_KEY
-from SC2BattleML.BattleML_definitions.unit_enum import UNITS_ML_DICT, FLAG_BUILDING
-from SC2BattleML.bots.micro_bot import MicroBot
+from BattleML_definitions.actions_enum import ActionsML
+from BattleML_definitions.observations import UNIT_ENCODING_KEY
+from BattleML_definitions.unit_enum import UNITS_ML_DICT, FLAG_BUILDING
+from bots.micro_bot import MicroBot
 import numpy as np
-from SC2BattleML.settings import MicroBotSettings
+from settings import MicroBotSettings
 
 
 class AMoveBot(MicroBot):

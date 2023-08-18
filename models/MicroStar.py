@@ -3,10 +3,10 @@ import torch
 from torch.nn import TransformerEncoderLayer, LayerNorm, TransformerEncoder
 import torch.nn.functional as F
 
-from SC2BattleML.BattleML_definitions.actions_enum import ACTION_COUNT
-from SC2BattleML.BattleML_definitions.observations import UNIT_ENCODING_SIZE, SPACIAL_FEATURES, SCALAR_FEATURE_SIZE
-from SC2BattleML.settings import ModelSettings, MicroBotSettings
-from SC2BattleML.settings.current_settings import SPATIAL_RESOLUTION_X, SPATIAL_RESOLUTION_Y
+from BattleML_definitions.actions_enum import ACTION_COUNT
+from BattleML_definitions.observations import UNIT_ENCODING_SIZE, SPACIAL_FEATURES, SCALAR_FEATURE_SIZE
+from settings import ModelSettings, MicroBotSettings
+from settings.current_settings import SPATIAL_RESOLUTION_X, SPATIAL_RESOLUTION_Y
 import numpy as np
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 

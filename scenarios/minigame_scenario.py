@@ -1,10 +1,10 @@
 from __future__ import annotations
-from SC2BattleML.scenarios.scenario import Scenario
+from scenarios.scenario import Scenario
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from SC2BattleML.bots.micro_bot import MicroBot
-    from SC2BattleML.settings import ScenarioSettings
+    from bots.micro_bot import MicroBot
+    from settings import ScenarioSettings
 
 
 class MiniGameScenario(Scenario):

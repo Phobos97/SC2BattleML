@@ -1,8 +1,8 @@
 from sc2.data import Result
 
-from SC2BattleML.bots.micro_bot import MicroBot
-from SC2BattleML.models.MicroStar import MicroStar
-from SC2BattleML.settings import ModelSettings, MicroBotSettings
+from bots.micro_bot import MicroBot
+from models.MicroStar import MicroStar
+from settings import ModelSettings, MicroBotSettings
 import torch
 from colorama import init as colorama_init
 from colorama import Fore

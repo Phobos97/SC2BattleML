@@ -3,9 +3,9 @@ import asyncio
 from sc2 import maps
 from sc2.main import GameMatch, a_run_multiple_games
 
-from SC2BattleML.bots import AMoveBot, DoNothingBot, HoldPositionBot, MLBot
-from SC2BattleML.source import LearningManager, DataCollector
-from SC2BattleML.settings import ModelSettings, LearningSettings, MicroBotSettings, HardwareSettings, ScenarioSettings
+from bots import AMoveBot, DoNothingBot, HoldPositionBot, MLBot
+from source import LearningManager, DataCollector
+from settings import ModelSettings, LearningSettings, MicroBotSettings, HardwareSettings, ScenarioSettings
 
 
 async def start_game_multi(model_settings: ModelSettings, learning_settings: LearningSettings,

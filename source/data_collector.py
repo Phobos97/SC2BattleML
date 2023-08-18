@@ -3,11 +3,11 @@ import torch
 from sc2.data import Result
 from sc2.player import Bot, AbstractPlayer
 
-from SC2BattleML.BattleML_definitions.actions_enum import ActionsML
-from SC2BattleML.bots.micro_bot import MicroBot
-from SC2BattleML.source.episode_data import Episode
-from SC2BattleML.source.learning_manager import LearningManager
-from SC2BattleML.scenarios.scenario import Scenario
+from BattleML_definitions.actions_enum import ActionsML
+from bots.micro_bot import MicroBot
+from source.episode_data import Episode
+from source.learning_manager import LearningManager
+from scenarios.scenario import Scenario
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 

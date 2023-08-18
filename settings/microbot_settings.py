@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from typing import List
-from SC2BattleML.BattleML_definitions.actions_enum import ActionsML
+from BattleML_definitions.actions_enum import ActionsML
 
 from torch.utils.tensorboard import SummaryWriter
 

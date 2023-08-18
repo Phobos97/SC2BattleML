@@ -8,14 +8,14 @@ from sc2.ids.unit_typeid import UnitTypeId
 from sc2.position import Point2
 from sc2.unit import Unit
 
-from SC2BattleML.BattleML_definitions.actions_enum import ActionsML
-from SC2BattleML.BattleML_definitions.observations import raw_units_processing, raw_image_processing
-from SC2BattleML.BattleML_definitions.unit_enum import FLAG_BUILDING, PRESERVATION_BUILDINGS
+from BattleML_definitions.actions_enum import ActionsML
+from BattleML_definitions.observations import raw_units_processing, raw_image_processing
+from BattleML_definitions.unit_enum import FLAG_BUILDING, PRESERVATION_BUILDINGS
 from typing import List
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from SC2BattleML.source.data_collector import DataCollector
+    from source.data_collector import DataCollector
 
 
 class MicroBot(BotAI):

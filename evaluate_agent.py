@@ -1,13 +1,13 @@
 import asyncio
 
 from sc2.ids.unit_typeid import UnitTypeId
-from SC2BattleML.scenarios.combat_scenario import PureCombatScenario
-from SC2BattleML.scenarios.minigame_scenario import MiniGameScenario
-from SC2BattleML.settings import ScenarioSettings
-from SC2BattleML.source.local_run import start_game_multi
+from scenarios.combat_scenario import PureCombatScenario
+from scenarios.minigame_scenario import MiniGameScenario
+from settings import ScenarioSettings
+from source.local_run import start_game_multi
 import time
 
-from SC2BattleML.settings.current_settings import model_settings, learning_settings, microbot_settings, hardware_settings
+from settings.current_settings import model_settings, learning_settings, microbot_settings, hardware_settings
 
 if __name__ == '__main__':
     # which models to evaluate

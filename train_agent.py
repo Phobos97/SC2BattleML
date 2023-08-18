@@ -1,8 +1,8 @@
 import asyncio
-from SC2BattleML.source.local_run import start_game_multi
+from source.local_run import start_game_multi
 import time
 
-from SC2BattleML.settings.current_settings import model_settings, learning_settings, microbot_settings, hardware_settings, \
+from settings.current_settings import model_settings, learning_settings, microbot_settings, hardware_settings, \
     scenario_settings
 
 if __name__ == '__main__':

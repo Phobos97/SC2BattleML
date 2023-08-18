@@ -6,7 +6,7 @@ from torch.utils.tensorboard import SummaryWriter
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from SC2BattleML.scenarios.scenario import Scenario
+    from scenarios.scenario import Scenario
 
 @dataclass
 class ScenarioSettings:
